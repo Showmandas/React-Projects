@@ -109,8 +109,48 @@ textarea{
 }
 
 /* Style About */
+.card .card-img-top{
+  width: 200px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  
+}
 
-
+.fb-btn{
+  font-weight: 500;
+  font-size: 1rem;
+  display: inline-block;
+  border: 2px solid #FF7777;
+  background:#FF7777;
+  color: #fff;
+  padding: 0.3rem 1.1rem;
+  transition: 0.5s;
+  text-decoration: none; 
+}
+.fb-btn:hover{
+  background:transparent;
+  color: #FF7777;
+}
+.icons{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.icons i{
+  padding-left: 20px;
+  font-size: 1.3rem;
+  color: #FF7777;
+  /* border: 1px solid #FF7777; */
+  text-align: center;
+  
+  transform: scale(1);
+  transition: .5s ease-in-out;
+}
+.icons i:hover{
+  
+  transform: scale(1.2);
+  /* transition: .5s ease-in-out; */
+}
 
 /* style Rating */
 .star-rating{
